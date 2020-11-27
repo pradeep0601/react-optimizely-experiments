@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/react-optimizely-experiments/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/react-optimizely-experiments/static/js/main.18c835ef.chunk.js",
-    "main.js.map": "/react-optimizely-experiments/static/js/main.18c835ef.chunk.js.map",
-    "runtime-main.js": "/react-optimizely-experiments/static/js/runtime-main.f1b34afc.js",
-    "runtime-main.js.map": "/react-optimizely-experiments/static/js/runtime-main.f1b34afc.js.map",
-    "static/js/2.edb21e7b.chunk.js": "/react-optimizely-experiments/static/js/2.edb21e7b.chunk.js",
-    "static/js/2.edb21e7b.chunk.js.map": "/react-optimizely-experiments/static/js/2.edb21e7b.chunk.js.map",
-    "static/js/3.37655fd2.chunk.js": "/react-optimizely-experiments/static/js/3.37655fd2.chunk.js",
-    "static/js/3.37655fd2.chunk.js.map": "/react-optimizely-experiments/static/js/3.37655fd2.chunk.js.map",
-    "index.html": "/react-optimizely-experiments/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/react-optimizely-experiments/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.edb21e7b.chunk.js.LICENSE.txt": "/react-optimizely-experiments/static/js/2.edb21e7b.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/react-optimizely-experiments/static/media/logo.6ce24c58.svg"
+    "main.css": "/react-optimizely-feature-test/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/react-optimizely-feature-test/static/js/main.298b7b77.chunk.js",
+    "main.js.map": "/react-optimizely-feature-test/static/js/main.298b7b77.chunk.js.map",
+    "runtime-main.js": "/react-optimizely-feature-test/static/js/runtime-main.0537bea6.js",
+    "runtime-main.js.map": "/react-optimizely-feature-test/static/js/runtime-main.0537bea6.js.map",
+    "static/js/2.0856953f.chunk.js": "/react-optimizely-feature-test/static/js/2.0856953f.chunk.js",
+    "static/js/2.0856953f.chunk.js.map": "/react-optimizely-feature-test/static/js/2.0856953f.chunk.js.map",
+    "static/js/3.a6ee58fa.chunk.js": "/react-optimizely-feature-test/static/js/3.a6ee58fa.chunk.js",
+    "static/js/3.a6ee58fa.chunk.js.map": "/react-optimizely-feature-test/static/js/3.a6ee58fa.chunk.js.map",
+    "index.html": "/react-optimizely-feature-test/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/react-optimizely-feature-test/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.0856953f.chunk.js.LICENSE.txt": "/react-optimizely-feature-test/static/js/2.0856953f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f1b34afc.js",
-    "static/js/2.edb21e7b.chunk.js",
+    "static/js/runtime-main.0537bea6.js",
+    "static/js/2.0856953f.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.18c835ef.chunk.js"
+    "static/js/main.298b7b77.chunk.js"
   ]
 }

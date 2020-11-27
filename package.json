@@ -1,7 +1,8 @@
 {
-  "homepage": "http://pradeep0601.github.io/react-optimizely-experiments",
-  "name": "react-optimizely-experiments",
+  "homepage": "http://pradeep0601.github.io/react-optimizely-feature-test",
+  "name": "react-optimizely-feature-test",
   "version": "0.1.0",
+  "author": "Pradeep Kumar <pradeepk.pdp@gmail.com>",
   "private": true,
   "dependencies": {
     "@optimizely/react-sdk": "^2.4.1",

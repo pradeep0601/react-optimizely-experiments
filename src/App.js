@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import shortUuid from 'short-uuid'
 import {
   createInstance,
@@ -7,7 +7,6 @@ import {
   withOptimizely,
 } from '@optimizely/react-sdk';
 
-import logo from './logo.svg';
 import './App.css';
 
 import PurchaseButton from './PurchaseButton';
@@ -22,7 +21,8 @@ const userAgent = window.navigator.userAgent
 console.log('=========userAgent: ', userAgent);
 const userId = `testuser-${shortUuid.generate()}`;
 console.log('========userId: ', userId);
-function App() {
+class App extends Component {
+  render() {
   return (
     <OptimizelyProvider
     optimizely = {optimizely}
@@ -35,12 +35,11 @@ function App() {
     >
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>Test Optimizely Experiments</h2>
+        <h2>Optimizely Feature Test</h2>
         <p>
           <OptimizelyFeature feature = 'discount'>
             {(enabled, variables) => (
-              enabled ? `Got a discount of $${variables.amount}`: 'Regular price, no discount!'
+              enabled ? `Discount: $${variables.amount}`: 'Discount: No discount, Regular price.'
             )}
           </OptimizelyFeature>
         </p>
@@ -50,7 +49,8 @@ function App() {
       </header>
     </div>
     </OptimizelyProvider>
-  );
+  )
+  };
 }
 
 export default App;
